@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-container {
+  display: flex;
+  background-color: #ffd4cf;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-container img {
+  width: 400px;
+}
+.banner-description {
+  padding: 20px;
+  max-width: 500px;
+}
+
+.banner-description h1 {
+  font-size: 42px;
+}
+.banner-description button {
+  background-color: #e55473;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+}
+
+.featured-section {
+  width: 30%;
+  margin: 10px auto;
+  text-align: center;
+  margin-top: 70px;
+}
+.featured-section h3 {
+  font-size: 2rem;
+}
+.featured-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.featured-image img {
+  width: 200px;
+}
+
+.img-1 {
+  background-color: #ffd4cf;
+  padding: 60px;
+  padding-bottom: 0px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+.img-2 {
+  background-color: #c0eef1;
+  padding: 60px;
+  padding-bottom: 0px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+.img-3 {
+  background-color: #d5f3b8;
+  padding: 60px;
+  padding-bottom: 0px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+.featured-title {
+  margin-top: 10px;
+}
+.img-2 img {
+  /* width: 250px; */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  max-width: 88%;
+  margin-left: 80px;
+
+  padding: 20px;
+}
+.image-container img {
+  align-items: center;
+  /* padding: 5px; */
+  margin-left: 50px;
+}
+.image-container p {
+  text-align: center;
+  padding: 10px;
+}
+.img-4 {
+  /* margin-left: 40px; */
+  /* margin-right: 20px; */
+  padding-left: 30px;
+}
+.img-5 {
+  padding-left: 30px;
+}
+.img-6 {
+  padding-right: 20px;
+}
+
+.hot-deal {
+  display: flex;
+  background-color: #f5e7ea;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0px 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+.hot-deal img {
+  width: 250px;
+  padding: 30px;
+  margin-right: 30px;
+}
+.content {
+  padding: 20px;
+  max-width: 400px;
+  padding-left: 30px;
+}
+.content h3 {
+  font-size: 30px;
+}
+.content p {
+  margin-top: 10px;
+}
+.content button {
+  color: white;
+  margin-top: 10px;
+  background-color: #e55473;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.layout {
+  color: #e55473;
+}
+.reader {
+  display: flex;
+  margin: 50px 100px;
+  justify-content: space-around;
+}
+.readable {
+  text-align: center;
+  width: 30%;
+  margin: 10px auto;
+  margin-top: 70px;
+}
+.readable p {
+  margin-top: 20px;
+}
