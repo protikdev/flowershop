@@ -154,8 +154,12 @@
 }
 .reader {
   display: flex;
-  margin: 50px 100px;
   justify-content: space-around;
+  align-items: center;
+  margin: 20px 50px;
+}
+.reader img {
+  width: 250px;
 }
 .readable {
   text-align: center;
@@ -165,4 +169,45 @@
 }
 .readable p {
   margin-top: 20px;
+}
+
+.coupon {
+  background-image: url("/Flower Asset/Rectangle 9.png");
+  height: 300px;
+  /* width: 500px; */
+  justify-content: center;
+  max-width: 89%;
+  margin-left: 70px;
+  background-size: cover;
+  padding: 8%;
+  text-align: center;
+  margin-top: 50px;
+}
+.coupon p {
+  margin-top: 10px;
+}
+.coupon input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 450px;
+}
+.coupon button {
+  background-color: #e55473;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.footer-container {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 50px 10px;
+  margin-top: 50px;
+}
+.flo {
+  color: #e55473;
+}
+.footer-container p {
+  margin-top: 10px;
 }
